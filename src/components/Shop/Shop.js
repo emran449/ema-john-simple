@@ -5,7 +5,7 @@ import Product from '../Product/Product';
 import Cart from '../Cart/Cart'
 
 const Shop = () => {
-    
+    console.log(fakeData);
   useEffect(()=>{
     fetch(`${fakeData}`)
   .then(response => response.json())
